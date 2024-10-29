@@ -1,19 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 body {
     background-color: #f7f2eb;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+   
 }
 
 /* Container for the card */
 .container {
-    max-width: 600px;
+    max-width: 640px;
     width: 100%;
 }
 
