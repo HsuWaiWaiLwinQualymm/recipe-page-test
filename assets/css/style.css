@@ -1,22 +1,31 @@
 * {
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
+}
+ul li {
+    list-style-type: none;
+}
+
+/* ul,ol,li {
+    list-style-type: none;
+} */
+.wrapper{
+    background-color: antiquewhite;
+    padding: 50px 0;
 }
 /* Container for the card */
 .container {
+    background: white;
     max-width: 640px;
     width: 100%;
-    background-color: #f7f2eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 /* Recipe Card */
 .recipe-card {
-    background-color: #fff;
+    
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -41,9 +50,19 @@
     margin: 10px 0 20px;
     text-align: center;
 }
+ul.custom-list li::before {
+    content: "• "; 
+    color: pink; 
+    font-size: 1.2em; 
+    margin-right: 0.5em; 
+  }
 
+  
+  ul.custom-list {
+    list-style: none; 
+    padding: 0;
+  }
 .prep-time {
-    background-color: #f3e5e5;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
